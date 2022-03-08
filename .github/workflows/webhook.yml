@@ -5,7 +5,6 @@ on: push
 jobs:
   send-webhook-signal:
     name: Send Webhook Signal
-    needs: ci
     runs-on: ubuntu-latest
     steps:
       - name: Invoke Webhook
